@@ -12,13 +12,6 @@ const db = mysql2.createConnection({
 
 db.connect(function (err) {
     if (err) throw err;
-    console.log("Database is connected.");
-    employeeTracker()
-});
-
-
-db.connect(function (err) {
-    if (err) throw err;
     console.log("Database connected for employee tracker");
     employeeTracker()
 
