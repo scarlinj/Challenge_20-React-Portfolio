@@ -12,7 +12,7 @@ CREATE TABLE department(
     department_name VARCHAR(30)
 );
 
-CREATE TABLE role(
+CREATE TABLE roles (
     id INTEGER PRIMARY KEY,
     title VARCHAR(30),
     salary DECIMAL,
@@ -28,15 +28,3 @@ CREATE TABLE employee(
     manager_id INT
 );
 
-INSERT INTO departments(id, department_name);
-
--- example from Module 12 below
-VALUES'  ('Virginia', 'Woolf', 1),
-  ('Piers', 'Gaveston', 0),
-  ('Charles', 'LeRoi', 1),
-  ('Katherine', 'Mansfield', 1),
-  ('Dora', 'Carrington', 0),
-  ('Edward', 'Bellamy', 0),
-  ('Montague', 'Summers', 1),
-  ('Octavia', 'Butler', 1),
-  ('Unica', 'Zurn', 1);
