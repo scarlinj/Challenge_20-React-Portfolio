@@ -7,8 +7,8 @@ CREATE DATABASE employee_db;
 
 USE department_db;
 
-CREATE TABLE departments(
-    id INTEGER PRIMARY KEY,
+CREATE TABLE department(
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
     department_name VARCHAR(30)
 );
 
@@ -19,10 +19,11 @@ CREATE TABLE role(
     department_id INT,
 );
 
-CREATE TABLE employees(
-    id INTEGER PRIMARY KEY,
+CREATE TABLE employee(
+    id INTEGER AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30),
     last_name VARCHAR(30),
+    salary DECIMAL(10,2),
     role_id INT,
     manager_id INT
 );
