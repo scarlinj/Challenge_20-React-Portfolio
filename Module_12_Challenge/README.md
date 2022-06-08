@@ -1,3 +1,10 @@
+To Run this file from the MySQL command line, type:
+- source db/db.sql
+- source db/schema.sql
+- source db/seeds.sql
+
+
+Description of this App:
 AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
 SO THAT I can organize and plan my business

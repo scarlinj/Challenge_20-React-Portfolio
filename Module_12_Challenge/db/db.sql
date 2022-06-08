@@ -1,3 +1,5 @@
-DROP DATABASE IF EXISTS employee;
-CREATE DATABASE employee;
-USE employee;
+DROP DATABASE IF EXISTS company_db;
+CREATE DATABASE company_db;
+USE company_db;
+
+-- Use "source db/db.sql" from the root folder to recreate this table

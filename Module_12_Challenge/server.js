@@ -1,14 +1,30 @@
-// Import and require mysql2
-const mysql2 = require('mysql2');
 const inquirer = require('inquirer');
+// Import and require mysql2
+const mysql = require('mysql2');
+const mysql2 = require('mysql2');
+
+const dotenv = require('dotenv').config;
+// require('dotenv').config();
+
 require('console.table');
 
+
 const db = mysql2.createConnection({
-    hot: 'localhost',
+    host: 'localhost',
     user: 'root',
     password: 'password',
-    database: 'department_db'
-})
+    database: 'company_db'
+},
+console.log('Connected to department_db'));
+
+// const db = mysql2.createConnection({
+//     host: 'localhost',
+//     user: process.env.USER,
+//     password: process.env.PASSWORD,
+//     database: 'department_db'
+// },
+// console.log('Connected to department_db')
+// );
 
 db.connect(function (err) {
     if (err) throw err;
@@ -16,7 +32,6 @@ db.connect(function (err) {
     employeeTracker()
 
 });
-
 
 
 function employeeTracker() {
