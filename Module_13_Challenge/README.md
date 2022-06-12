@@ -8,6 +8,8 @@
 >   - [Features](#features)
 >   - [Usage](#usage)
 >   - [Installation](#installation)
+>   - [User Story](#user-story)
+>   - [Purpose](#purpose)
 >   - [Technology](#technology)
 >   - [Credits](#credits)
 >   - [Contributing / Reporting issues](#contributing--reporting-issues)
