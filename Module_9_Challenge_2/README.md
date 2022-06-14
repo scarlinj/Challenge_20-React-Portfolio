@@ -41,7 +41,7 @@ If you would like to use this program, download this repository.  After download
 <a name="credits"></a>
 ## Credits
 
-This project was developed as part of a Web Development program through UC Berkeley and Trilogy.
+This project was developed as part of a Web Development program through UC Berkeley.
 
 
 ---
