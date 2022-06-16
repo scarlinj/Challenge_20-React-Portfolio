@@ -19,17 +19,27 @@
 ## Features
 
 
-### Usage
-
+## Usage
+- show the Database by running the following SQL commands:
+    - "mysql -u root -p" to open mysql
+    - enter your MySQL password and hit Enter
+    - this will bring up the MySQL shell
+    - Type "show databases;" to see a list of your databases
+    - Type "use database_name;" to select from your list of databases, using the name of your database instead of database_name
+    - Type "show tables;" to see the tables in that database
 
 ## Installation
 
 - Clone this repository.
-- run npm install in the Develop directory.
-- Add and edit .env file to your configuration.
-- Create your database by running "source db/schema.sql" from the MySQL shell.
-- Run "node seeds/index.js" at the command line if you wish to further test with provided database.
+- run "npm install express sequelize mysql2" in the root directory to configure these methods in your directory.
+- Add and edit an .env file to your configuration, including your MySQL username, and MySQL password.
+- Create your database by running "source db/schema.sql" from the MySQL shell.  From here you can add and edit data in that database.
+- Run "node seeds/index.js" at the command line if you wish to further test with the database provided.
 - Start server and connect to database by running "npm start" at your command line.
+    - navigate the SQL tables by typing:
+    - use ecommerce_db;
+    - source db/schema.sql;
+    - show tables;
 
 
 ## User Story
@@ -58,3 +68,4 @@ THEN I am able to successfully create, update, and delete data in my database
 - Sequelize
 - Insomnia
 - Express.js
+- Heroku app: desolate-sea-17608
