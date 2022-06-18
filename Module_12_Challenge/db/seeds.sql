@@ -35,7 +35,7 @@ VALUES('Account Executive', 110000, 1),
 ('Chief Financial Officer', 285000, 5);
 
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
 ('Benjamin', 'Lewis', 50000, 12, NULL),
 ('Jessica', 'Cobb', 60000, 13, 1),
