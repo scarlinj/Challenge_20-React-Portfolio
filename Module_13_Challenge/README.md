@@ -2,8 +2,7 @@
 
 ## Table of contents
 
-> - [Title / Repository Name](#title--repository-name)
->   - [Table of contents](#table-of-contents)
+> - [E-Commerce Back-End]
 >   - [About / Synopsis](#about--synopsis)
 >   - [Features](#features)
 >   - [Usage](#usage)
@@ -16,7 +15,10 @@
 
 ## About / Synopsis
 
+
+
 ## Features
+
 
 
 ## Usage
